@@ -11,13 +11,13 @@ public class MaxProductSubArray {
 
         int leftToRight = 1, rightToLeft = 1, result = Integer.MIN_VALUE;
         for (int i = 0; i < items.length; i++) {
-            if(items[i] != 0){
+            if(leftToRight != 0){
                 leftToRight *= items[i];
             }else {
                 leftToRight = 1;
             }
             int j = items.length - 1 - i;
-            if(items[j] != 0){
+            if(rightToLeft != 0){
                 rightToLeft *= items[j];
             }else {
                 rightToLeft = 1;
