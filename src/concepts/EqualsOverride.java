@@ -17,6 +17,11 @@ public class EqualsOverride {
             Person person = (Person) object;
             return this.age == person.age && Objects.equals(this.name, person.name);
         }
+
+        @Override
+        public int hashCode(){
+            return Objects.hash(this.age, this.name);
+        }
     }
 
 }
