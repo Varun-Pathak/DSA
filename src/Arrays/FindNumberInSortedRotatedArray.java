@@ -1,3 +1,5 @@
+package Arrays;
+
 public class FindNumberInSortedRotatedArray {
 
     public static void main(String[] args) {

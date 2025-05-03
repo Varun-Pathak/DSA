@@ -1,3 +1,5 @@
+package Arrays;
+
 public class MinNumberInSortedRotatedArray {
 
     public static void main(String[] args) {
