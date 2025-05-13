@@ -1,7 +1,5 @@
 package Strings;
 
-import java.util.List;
-
 public class DivisibleBy7 {
 
     public static void main(String[] args) {
